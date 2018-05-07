@@ -67,7 +67,7 @@ const config = {
   hidden: { 
     opacity: 0, 
     y: -50, 
-    transition: tweenBoth
+    // transition: tweenBoth
   }
 }
 
