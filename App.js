@@ -48,7 +48,6 @@ const styles = StyleSheet.create({
 })
 
 const tweenBoth = ({ value, toValue, useNativeDriver, key }) => {
-  useNativeDriver = true;
   switch(key) {
     case 'opacity':
       return Animated.timing(value, { toValue })
